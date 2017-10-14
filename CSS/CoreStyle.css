@@ -1,0 +1,17 @@
+#Enclose{background-color: #d1d1ca}
+#Menu {background: linear-gradient(to bottom, #5e1512, #d1d1ca);
+text-align: center;
+	height: 50px;
+	color: #cfb53b
+}
+#Carousel {height: 300px; background-color: darkred}
+
+#Portrait {width: 45%; background-color: orange; height: 200px; float: left}
+
+#Facts {width: 45%; background-color: lawngreen; height: 200px; float: right;
+text-align: center}
+
+#Footer {clear: both; background: linear-gradient(to top, #5e1512, #d1d1ca);
+text-align: center; 
+color: #cfb53b;
+height: 50px;}
