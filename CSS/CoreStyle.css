@@ -1,13 +1,23 @@
-Body{background-color: #d1d1ca}
+#Enclose{margin: 0px;background-color: #262625;}
 
-#Menu {background: linear-gradient(to bottom, #5e1512, #d1d1ca);
-text-align: center;
-	height: 50px;
-	color: #cfb53b
+#Menu {
+    background: linear-gradient(to bottom, #5e1512, #262625);
+    text-align: center;
+    height: 50px;
+    color: #cfb53b;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
 }
 
-.HalfBox {width: 35%; background-color: RGBa(94,21,18,0.29); height: 200px; text-align: center}
+.HalfBox {
+    width: 35%; background-color: RGBa(94,21,18,0.5); height: 200px; text-align: center; margin-right: 40px; margin-left: 40px; color:#c0c0c0;	
+}
 
 #ResumeDetail{float: right; width: 60%}
-#Footer {clear: both; background: linear-gradient(to top, #5e1512, #d1d1ca);
-text-align: center; color: #cfb53b;height: 50px;}
+#Footer {
+    clear: both;
+    background: linear-gradient(to top, #5e1512, #262625);
+    text-align: center;
+    color: #cfb53b;
+    height: 50px;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
