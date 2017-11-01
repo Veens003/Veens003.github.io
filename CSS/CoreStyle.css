@@ -1,18 +1,35 @@
-#Enclose{margin: 0px;background-color: #262625;}
-
+#Enclose{
+    margin: 0px;
+    background-color: #262625;
+    min-width: 1200px;
+}
+h2{color:#cfb53b}
 #Menu {
     background: linear-gradient(to bottom, #5e1512, #262625);
     text-align: center;
     height: 50px;
-    color: #cfb53b;
     font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    color: #cfb53b;
 }
 
 .HalfBox {
-    width: 35%; background-color: RGBa(94,21,18,0.5); height: 200px; text-align: center; margin-right: 40px; margin-left: 40px; color:#c0c0c0;	
+    background-color: RGBa(94,21,18,0.5);
+    text-align: center;
+    margin-right: 40px;
+    margin-left: 40px;
+    color: #c0c0c0;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
-
-#ResumeDetail{float: right; width: 60%}
+#Portrait{font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"}
+#ResumeDetail{
+    float: right;
+    width: 60%;
+    color: #c0c0c0;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
 #Footer {
     clear: both;
     background: linear-gradient(to top, #5e1512, #262625);
