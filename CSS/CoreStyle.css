@@ -1,3 +1,4 @@
+a{color: #CFB532;text-decoration: none}
 Body{margin-top: 0px}
 #Enclose{
     margin: 0px;
@@ -16,15 +17,19 @@ h2{color:#cfb53b}
 .HalfBox {
     background-color: RGBa(94,21,18,0.5);
     text-align: center;
-    margin-right: 65px;
-    margin-left: 65px;
+    margin-right: 40px;
+    margin-left: 40px;
     color: #c0c0c0;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
-#Portrait{font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"}
+#Portrait{
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    float: left;
+}
 #ResumeDetail{
     color: #c0c0c0;
     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
@@ -34,6 +39,8 @@ h2{color:#cfb53b}
     margin-right: 40px;
     overflow-y: scroll;
     float: right;
+    max-height: 600px;
+    margin-bottom: 15px;
 }
 #Footer {
     clear: both;
