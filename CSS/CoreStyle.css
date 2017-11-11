@@ -1,13 +1,24 @@
 a{color: #CFB532;text-decoration: none}
-Body{margin-top: 0px}
+body{
+    margin-top: 0px;
+    background-color: #D1D1CA
+}
 #Enclose{
-    margin: 0px;
-    background-color: #262625;
-    width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #D1D1CA;
+    min-width: 1200px;
+}
+#Carousel{
+    height: 275px;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
 }
 h2{color:#cfb53b}
 #Menu {
-    background: linear-gradient(to bottom, #5e1512, #262625);
+    background: linear-gradient(to bottom, #5e1512, #D1D1CA);
     text-align: center;
     height: 50px;
     font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
@@ -15,38 +26,46 @@ h2{color:#cfb53b}
 }
 
 .HalfBox {
-    background-color: RGBa(94,21,18,0.5);
+    background-color: RGBa(94,21,18,0.8);
     text-align: center;
-    margin-right: 40px;
-    margin-left: 40px;
+    margin-right: 35px;
+    margin-left: 35px;
     color: #c0c0c0;
-    padding-right: 20px;
+    padding-right: 10px;
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    margin-bottom: 15px;
 }
 #Portrait{
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: 10%;
+    margin-bottom: 0;
     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
-    float: left;
 }
 #ResumeDetail{
     color: #c0c0c0;
     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-    background-color: RGBa(94,21,18,0.5);
+    background-color: RGBa(94,21,18,0.8);
     padding-right: 15px;
     padding-left: 15px;
-    margin-right: 40px;
+    margin-top: 15px;
+    margin-right: 5%;
+    margin-left: auto;
+    margin-bottom: 15px;
     overflow-y: scroll;
     float: right;
     max-height: 600px;
-    margin-bottom: 15px;
+    text-align: left;
 }
 #Footer {
     clear: both;
-    background: linear-gradient(to top, #5e1512, #262625);
+    background: linear-gradient(to top, #5e1512, #D1D1CA);
     text-align: center;
     color: #cfb53b;
     height: 50px;
     font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
 }
+ul{text-align: left;}
