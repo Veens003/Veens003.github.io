@@ -1,7 +1,7 @@
 a{color: #CFB532;text-decoration: none}
 body{
     margin-top: 0px;
-    background-color: #D1D1CA
+    background-color: #D1D1CA;
 }
 #Enclose{
     text-align: center;
@@ -14,7 +14,6 @@ body{
     margin-top: 15px;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 15px;
 }
 h2{color:#cfb53b}
 #Menu {
@@ -37,13 +36,11 @@ h2{color:#cfb53b}
     padding-bottom: 10px;
     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
     margin-bottom: 15px;
+    margin-top: 15px;
 }
 #Portrait{
-    margin-top: 15px;
     margin-right: auto;
     margin-left: 10%;
-    margin-bottom: 0;
-    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 }
 #ResumeDetail{
     color: #c0c0c0;
