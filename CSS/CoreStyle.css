@@ -8,6 +8,7 @@ body{
     margin: 0 auto;
     background-color: #D1D1CA;
     min-width: 1200px;
+    max-width: 2200px;
 }
 #Carousel{
     height: 275px;
