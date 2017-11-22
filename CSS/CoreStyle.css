@@ -17,10 +17,12 @@ body{
     margin-left: auto;
 }
 
-h2{color:#cfb53b}
+h2{
+    color: #cfb53b;
+}
 
 #Menu {
-    background: linear-gradient(to bottom, #5e1512, #D1D1CA);
+    background: linear-gradient(to top, #5e1512, #D1D1CA);
     text-align: center;
     height: 50px;
     font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
