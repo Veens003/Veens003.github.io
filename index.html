@@ -5,27 +5,65 @@
 <link href="CSS/CoreStyle.css" rel="stylesheet" type="text/css" />
 <title>John Veenstra's Homepage</title>
 
+<!-- Slideshow Scripts -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider();
+    });
+	  
+	  $(function(){
+  $('.bxslider').bxSlider({
+    mode: 'fade',
+    captions: false,
+    wrapperClass: 'carouselwrap'
+  });
+});
+  </script>
+
 </head>
 
 <body>
 <div id="Enclose">
 <div id="Menu">
-<h2 style="padding-top:15px"><a href="index.html">Main</a> |  <a href="resume.html"><span style="color:#c0c0c0">Resume</span> </a>| <a href="skills.html">Skills & Projects</a> </h2></div>
-<div id="Carousel" style="height:335px"><img src="images/Main Carousel Sub.png" width="1031" height="330" alt=""/></div>
+<h2 style="padding-top: 15px">John Veenstra's <a href="index.html">Intro</a> |  <a href="resume.html">Resume </a>| <a href="skills.html">Skills</a> </h2></div>
+	  
+<div class="carouselwrap">
+	<div class="slider">
+    <div><img src="images/Main Carousel Sub.png" width="1031" height="330" alt=""/></div>
+    <div><img src="images/Second-Slide-Draft.jpg" width="672" height="329" alt=""/></div>
+  </div>
+</div>
+
 <div class="HalfBox" id="Portrait" style="float: left">
-	<img src="images/Portrait.jpg" width="200" height="200" alt=""/></div>
+	<img src="images/Portrait.jpg" width="200" height="200" alt="" align="left"/>
+	</div>
+
+<div class="HalfBox" id="Bio" style="float: left">
+	<h2>Quick Biography</h2>
+	<ul>
+	<li>From from St. Paul, Minnesota</li>
+	<li>3-year Science Museum of MN volunteer</li>
+	<li>Volunteer IT suport to 4 local schools</li>
+	</ul></div>
 
 <div class="HalfBox" id="Facts" style="float: right">
 	<h2>Quick Facts</h2>
 <ul>
 	<li>Management Information Systems BSB</li>
-	<li>IT Helpdesk and Microsoft Office experience</li>
+	<li>Microsoft .Net and Office developer</li>
+	<li>IT helpdesk and deployment experience</li>
 	<li>Microsoft Insider and Answers contributer</li>
-	<li>3 Year Science Museum of Minnesota volunteer </li>
-</ul></div>
+	</ul></div>
+	
 <div id="Footer">
-	<h3 style="padding-top:25px">©2017 John Veenstra | Connect via: <a href="mailto:veens003@umn.edu">Email</a>, <a href="https://www.linkedin.com/in/john-veenstra-45288a54/" target="_blank">LinkedIn</a>, <a href="https://github.com/Veens003/Veens003.github.io" target="_blank">GitHub</a></h3>
-  </div>
+	<h3 style="padding-top:20px">©2017 John Veenstra | Mobile version | Connect via: <a href="mailto:veens003@umn.edu">Email</a>, <a href="https://www.linkedin.com/in/john-veenstra-45288a54/" target="_blank">LinkedIn</a>, <a href="https://github.com/Veens003" target="_blank">GitHub</a></h3>
+	</div>
 </div>
+
 </body>
 </html>

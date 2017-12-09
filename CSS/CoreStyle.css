@@ -1,7 +1,8 @@
 a{color: #CFB532;text-decoration: none}
+a:hover{color: #c0c0c0;}
 body{
-    margin-top: 0px;
-    background-color: #D1D1CA;
+	margin-top: 0px;
+	background-color: #D1D1CA;
 }
 #Enclose{
     text-align: center;
@@ -16,7 +17,13 @@ body{
     margin-right: auto;
     margin-left: auto;
 }
-
+.carouselwrap{
+	background-color: #D1D1CA;
+	margin: 0 auto;
+	width: 700px;
+	background: #d1d1ca;
+	border-style: none;
+}
 h2{
     color: #cfb53b;
 }
