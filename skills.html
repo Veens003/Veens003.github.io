@@ -4,18 +4,41 @@
 <meta charset="utf-8">
 <link href="CSS/CoreStyle.css" rel="stylesheet" type="text/css" />
 <title>John Veenstra's Skills and Projects</title>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider();
+    });
+	  
+	  $(function(){
+  $('.bxslider').bxSlider({
+    mode: 'fade',
+    captions: false,
+    wrapperClass: 'carouselwrap'
+  });
+});
+  </script>
+	
 </head>
 
 <body>
 <div id="Enclose">
 <div id="Menu">
-	<h2 style="padding-top:15px"><a href="index.html">Main</a> |  <a href="resume.html"><span style="color:#c0c0c0">Resume</span> </a>| <a href="skills.html">Skills & Projects</a> </h2>
+<h2 style="padding-top: 15px">John Veenstra's <a href="index.html">Intro</a> |  <a href="resume.html">Resume </a>| <a href="skills.html">Skills</a> </h2></div>
+
+<div class="carouselwrap" style="width: 810px">
+	<div class="slider">
+    <div><img src="images/Skills slide 1.jpg" width="1037" height="281" alt=""/></div>
+    <div><img src="images/Skills slide 2.jpg" width="1037" height="261" alt=""/></div>
   </div>
-<div id="Carousel"><img src="images/Skills Carousel Sub.png" width="1280" height="273" alt=""/></div>
+</div>
+
 <div class="HalfBox" id="Samples" style="float: left">
 	<h2>Sample Code:</h2>
 <ul style="font-size: 22px;">
-	<li>Visio Diagram for a Capstone Course</li>
 	<li><a href="Assets/3202 Group 7  DraftDB.accdb" download>Otalyryngology Clinic Training Database</a></li>
 	<li><a href="https://github.com/Veens003?tab=repositories" target="_blank">Projects from VB.Net and MySQL Courses</a></li>
 	</ul>
@@ -25,12 +48,12 @@
 	<h2>Tech Help Sites:</h2>
 <ul style="font-size: 22px">
 	<li><a href="https://answers.microsoft.com/en-us/profile/644bed11-fb85-4638-9923-5e23ef9d1b00" target="_blank">Microsoft Answers comunity support</a></li>
-	<li>Stack Exchange for databases</li>
+	<li><a href="https://stackexchange.com/users/12468181/veens003" target="_blank">Stack Exchange for databases</a></li>
 </ul>
 </div>
 <div id="Footer">
-	<h3 style="padding-top:20px">©2017 John Veenstra | Connect via: <a href="mailto:veens003@umn.edu">Email</a>, <a href="https://www.linkedin.com/in/john-veenstra-45288a54/" target="_blank">LinkedIn</a>, <a href="https://github.com/Veens003/Veens003.github.io" target="_blank">GitHub</a></h3>
-</div>
+	<h3 style="padding-top:20px">©2017 John Veenstra | Mobile version | Connect via: <a href="mailto:veens003@umn.edu">Email</a>, <a href="https://www.linkedin.com/in/john-veenstra-45288a54/" target="_blank">LinkedIn</a>, <a href="https://github.com/Veens003" target="_blank">GitHub</a></h3>
+	</div>
 </div>
 </body>
 </html>

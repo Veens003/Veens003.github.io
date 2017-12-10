@@ -8,21 +8,16 @@ body{
     text-align: center;
     margin: 0 auto;
     background-color: #D1D1CA;
-    min-width: 1200px;
-    max-width: 2200px;
-}
-#Carousel{
-    height: 275px;
-    margin-top: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    min-width: 800px;
+    max-width: 1400px;
 }
 .carouselwrap{
 	background-color: #D1D1CA;
 	margin: 0 auto;
-	width: 700px;
+	width: 670px;
 	background: #d1d1ca;
 	border-style: none;
+	margin-top: 15px;
 }
 h2{
     color: #cfb53b;
